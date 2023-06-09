@@ -1,6 +1,10 @@
 package Zoo;
 
-public abstract class Animal {
-    public abstract void eat();
-    public abstract void move();
+public class Animal {
+    public void eat() {
+        System.out.println("Animal eats");
+    }
+    public void move(){
+        System.out.println("Animal moves");
+    }
 }
